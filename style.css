@@ -1,0 +1,25 @@
+h2 {
+    color: brown;
+}
+h3 {
+    color: darkblue;
+}
+ul {
+    background-color:beige
+}
+/* Aplicação flex box*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li, .rede-social {
+  margin-left: 48px;
+}

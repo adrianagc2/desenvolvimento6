@@ -1,0 +1,43 @@
+h1 {
+    color: brown;
+    padding: 20px;
+}
+
+h2 {
+    color: darkblue;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header, footer {
+    background: chocolate;
+    color: #ffffff;
+    padding: 10px;
+  }
+ 
+ul {
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+/* Aplicação flex box*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 48px;
+  }
+  
+  li, .rede-social {
+    margin-left: 48px;
+  }
